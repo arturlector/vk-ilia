@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12882D8A27FE109C0014C301 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12882D8927FE109C0014C301 /* User.swift */; };
+		12882D8C27FE11790014C301 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12882D8B27FE11790014C301 /* FriendsViewController.swift */; };
 		12E0551227FDF740000E6D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0551127FDF740000E6D6B /* AppDelegate.swift */; };
 		12E0551427FDF740000E6D6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0551327FDF740000E6D6B /* SceneDelegate.swift */; };
 		12E0551627FDF740000E6D6B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0551527FDF740000E6D6B /* AuthViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12882D8927FE109C0014C301 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		12882D8B27FE11790014C301 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		12E0550E27FDF740000E6D6B /* vk-ilia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vk-ilia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E0551127FDF740000E6D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12E0551327FDF740000E6D6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12882D8827FE10780014C301 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12882D8927FE109C0014C301 /* User.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		12E0550527FDF740000E6D6B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 			children = (
 				12E0552527FDF753000E6D6B /* App */,
 				12E0552627FDF75E000E6D6B /* Screens */,
+				12882D8827FE10780014C301 /* Services */,
 				12E0552727FDF769000E6D6B /* Resources */,
 			);
 			path = "vk-ilia";
@@ -76,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				12E0551527FDF740000E6D6B /* AuthViewController.swift */,
+				12882D8B27FE11790014C301 /* FriendsViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -162,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12882D8A27FE109C0014C301 /* User.swift in Sources */,
+				12882D8C27FE11790014C301 /* FriendsViewController.swift in Sources */,
 				12E0551627FDF740000E6D6B /* AuthViewController.swift in Sources */,
 				12E0551227FDF740000E6D6B /* AppDelegate.swift in Sources */,
 				12E0551427FDF740000E6D6B /* SceneDelegate.swift in Sources */,
